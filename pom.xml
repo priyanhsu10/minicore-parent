@@ -8,7 +8,27 @@
     <artifactId>minicore-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>minicore-parent</name>
+    <name>${project.groupId}:${project.artifactId}</name>
+    <url>https://github.com/priyanhsu10/minicore-parent</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:git://github.com/priyanhsu10/minicore-parent.git</connection>
+        <developerConnection>scm:git:ssh://github.com:priyanhsu10/minicore-parent.git</developerConnection>
+        <url>https://github.com/priyanhsu10/minicore-parent</url>
+    </scm>
+    <developers>
+        <developer>
+            <name>Priyanshu Parate</name>
+            <email>priyanshuparate@gmail.com</email>
+            <organization>io.github.priyanhsu10</organization>
+            <organizationUrl>https://github.com/priyanhsu10</organizationUrl>
+        </developer>
+    </developers>
     <properties>
         <java.version>1.8</java.version>
         <program_class>Program.java</program_class>
